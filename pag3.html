@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Usuário</title>
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="src/images/pets_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
+        <h1>PetShop PetFeliz</h1>
+        <div class="area_usuario">
+            <p id="texto_autenticador">Usuário não Logado</p>
+            <img onclick="chamarPagDados()" id="user_icon" class="icone_usuario"
+                src="src/images/account_box_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
+        </div>
+    </header>
+    <main>
+        <div class="user_info">Insira seus dados
+            <div class="user_info_dados">
+                <form action="#" method="get">
+                    <br>
+                    <div>
+                        <label for="nome_dono">Nome Completo:</label>
+                        <input type="text" id="nome_dono" name="usuario" minlength="4">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="dt_nascimento">Data de nascimento: </label>
+                        <input type="date" id="dt_nascimento">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Sexo:</label>
+                        <input type="radio" name="sexo" id="sexo_masculino" value="Masculino">
+                        <label for="sexo_masculino">Masculino</label>
+                        <input type="radio" name="sexo" id="sexo_feminino" value="Feminino">
+                        <label for="sexo_feminino">Feminino</label>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="nome_pet">Nome do Pet: </label>
+                        <input type="text" id="nome_pet" minlength="3">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Pet: </label>
+                        <input type="radio" name="tipo_pet" id="cachorro" value="cachorro">
+                        <label for="cachorro">Cachorro</label>
+                        <input type="radio" name="tipo_pet" id="gato" value="gato">
+                        <label for="gato">Gato</label>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="raca_pet">Raça:</label>
+                        <input type="text" id="raca_pet">
+                    </div>
+                    <div class="btn_dados">
+                        <button type="submit">Enviar</button>
+                        <button id="btn_limpar" onclick="limparDados()">Limpar</button>
+                    </div>
+                    <div class="btn_alterar_estilo">
+                        <input type="radio" name="tipo_pg" id="estilo_1" value="op1" checked>
+                        <label for="estilo_1">default</label>
+                        <input type="radio" name="tipo_pg" id="estilo_2" value="op2">
+                        <label for="estilo_2">custom</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <table>
+            <tr>
+                <th>Acessibilidade</th>
+                <th>Termos & Condições</th>
+                <th>Loja Online</th>
+                <th>Privacidade</th>
+                <th>Legal</th>
+            </tr>
+        </table>
+        <br>
+        <p>© 2025 PetVida. Todos os direitos reservados.
+            Cuidando com amor e dedicação do seu melhor amigo. 🐶🐱</p>
+    </footer>
+</body>
+<script src="src/js/index.js"></script>
+
+</html>

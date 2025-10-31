@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    .logo {
+        width: 15px;
+        height: 15px;
+    }
+
+    .icone_usuario {
+        width: 15px;
+        height: 15px;
+    }
+
+    .header {
+        padding: 5px;
+    }
+
+    .header h1 {
+        font-size: 26px;
+    }
+
+    #texto_autenticador {
+        font-size: 8px;
+        margin-right: 2px;
+    }
+
+    .footer {
+        padding: 5px;
+        font-size: 8px;
+    }
+}

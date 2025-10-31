@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header"> <img class="logo" src="src/images/pets_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
+        <h1>PetShop PetFeliz</h1>
+        <div class="area_usuario">
+        <p id="texto_autenticador">Usuário não Logado</p>
+        <img onclick="chamarPagDados()" id= "user_icon" class="icone_usuario" src="src/images/account_box_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
+        </div>
+    </header>
+    <menu>
+        <table class="container_menu">
+            <tr>
+                <th class="menu_item">About Us</th>
+                <th class="menu_item">Portfolio</th>
+                <th class="menu_item">Blog</th>
+                <th class="menu_item">Contato</th>
+                <th onclick="redirecionar()" id="btnLogin" class="menu_item">Login</th>
+            </tr>
+        </table>
+    </menu>
+    <main>
+        <div class="container"> <img id="imagem_principal" src="src/images/fotoPetShop.webp">
+            <h4 class="texto">O melhor cuidado para o seu melhor amigo! <br> Oferecemos produtos, cuidados e serviços
+                pensados para o bem-estar do seu melhor amigo. Com uma equipe apaixonada e especializada, garantimos
+                carinho, qualidade e confiança em cada atendimento. Tudo o que seu pet precisa — em um só lugar!" </h4>
+        </div>
+    </main>
+    <footer class="footer">
+        <table>
+            <tr>
+                <th>Acessibilidade</th>
+                <th>Termos & Condições</th>
+                <th>Loja Online</th>
+                <th>Privacidade</th>
+                <th>Legal</th>
+            </tr>
+        </table> <br>
+        <p>© 2025 PetVida. Todos os direitos reservados. Cuidando com amor e dedicação do seu melhor amigo. 🐶🐱</p>
+        <br>
+        <p>Leandro gabriel de Oliveira Nascimento.</p>
+    </footer>
+</body>
+<script src="src/js/index.js"></script>
+
+</html>

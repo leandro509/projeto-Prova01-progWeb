@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="src/images/pets_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
+        <h1>PetShop PetFeliz</h1>
+        <div class="area_usuario">
+            <p id="texto_autenticador">Usuário não Logado</p>
+            <img onclick="chamarPagDados()" id= "user_icon" class="icone_usuario" src="src/images/account_box_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
+        </div>
+
+    </header>
+    <main>
+        <div class="container_login">
+            <h1>Login</h1>
+            <div class="container_dados">
+                <label for="user_name">Usuário</label>
+                <input id="user_name" type="text" name="user" required minlength="5">
+                <br>
+                <label for="senha_login">Senha</label>
+                <input id="senha_login" type="password" name="senha" required minlength="4">
+                <button onclick="infoLS()" id="autenticar_btn"> Autenticar</button>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <table>
+            <tr>
+                <th>Acessibilidade</th>
+                <th>Termos & Condições</th>
+                <th>Loja Online</th>
+                <th>Privacidade</th>
+                <th>Legal</th>
+            </tr>
+        </table>
+        <br>
+        <p>© 2025 PetVida. Todos os direitos reservados.
+            Cuidando com amor e dedicação do seu melhor amigo. 🐶🐱</p>
+    </footer>
+</body>
+<script src="src/js/index.js"></script>
+
+</html>
