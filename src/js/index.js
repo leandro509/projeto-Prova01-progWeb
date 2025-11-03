@@ -10,7 +10,7 @@ function infoLS() {
 function redirecionar() {
     var btnLogin = document.getElementById('btnLogin');
     btnLogin.addEventListener("click", () => {
-        window.location.href = "../paginasSecundarias/pag2.html";
+        window.location.href = "../../pag2.html";
     });
 }
 
@@ -54,7 +54,7 @@ function chamarPagDados() {
     var btnCadastro = document.getElementById('user_icon');
     if (icone.src.endsWith("src/images/face_5_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg")) {
         btnCadastro.addEventListener("click", () => {
-            window.location.href = "../paginasSecundarias/pag3.html";
+            window.location.href = "../../pag3.html";
         });
     } else {
         alert("Usuário não logado!");
