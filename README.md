@@ -1,4 +1,4 @@
-# Projeto de Site – Trabalho de Web (Primeira Parte)  
+# Projeto de Site – Trabalho de Programação Web - 01
 **Repositório:** [leandro509/projeto-Prova01-progWeb](https://github.com/leandro509/projeto-Prova01-progWeb)  
 
 ## 🎯 Objetivo  
@@ -33,7 +33,7 @@ Este projeto foi desenvolvido como parte do curso de Programação para Web, vis
 - JavaScript – Manipulação do DOM, controle de autenticação, armazenamento local (`localStorage`)  
 - (Opcional) Imagens, assets estáticos, organização de pastas (má prática ou boa prática conforme observado)
 
-## 📁 Estrutura de pastas (exemplo)  
+## 📁 Estrutura de pastas   
 
 <pre> ``` projeto-Prova01-progWeb/
 │
