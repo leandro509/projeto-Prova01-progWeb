@@ -35,7 +35,7 @@ Este projeto foi desenvolvido como parte do curso de Programação para Web, vis
 
 ## 📁 Estrutura de pastas (exemplo)  
 
- ``` projeto-Prova01-progWeb/
+<pre> ``` projeto-Prova01-progWeb/
 │
 ├── index.html # Página inicial do site
 │
@@ -53,7 +53,7 @@ Este projeto foi desenvolvido como parte do curso de Programação para Web, vis
 │ ├── login.html # Página de login
 │ └── cadastro.html # Página de cadastro
 │
-└── README.md # Documento descritivo do projeto ``` 
+└── README.md # Documento descritivo do projeto ``` </pre>
 
 ## 🎬 Demonstração do Projeto  
 Exemplo: [▶ Assistir demonstração](https://youtu.be/8hjI5-tX2GY)
