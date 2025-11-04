@@ -34,22 +34,11 @@ Este projeto foi desenvolvido como parte do curso de Programação para Web, vis
 - (Opcional) Imagens, assets estáticos, organização de pastas (má prática ou boa prática conforme observado)
 
 ## 📁 Estrutura de pastas (exemplo)  
-projeto-Prova01-progWeb/
-│
-├── index.html
-├── pag2.html
-├── pag3.html
-├── src/
-│ ├── css/
-│ │ └── estilos.css
-│ └── js/
-│ └── script.js
-└── assets/
-├── img/
-│ └── usuario-foto.png
-└── ...
+
+``` projeto-Prova01-progWeb/ │ ├── index.html # Página inicial do site │ ├── src/ │ ├── css/ │ │ └── estilos.css # Arquivo de estilos principais │ │ │ ├── js/ │ │ └── script.js # Lógica de autenticação e interações │ │ │ ├── imagens/ │ │ └── usuario.png # Foto fictícia do usuário (exemplo) │ │ │ └── paginas/ │ ├── login.html # Página de login │ └── cadastro.html # Página de cadastro │ └── README.md # Documento descritivo do projeto ```
+
 ## 🎬 Demonstração do Projeto  
-Exemplo: `[▶ Assistir demonstração]https://youtu.be/8hjI5-tX2GY`
+Exemplo: `[▶ Assistir demonstração](https://youtu.be/8hjI5-tX2GY)`
 
 ## 👤 Autores  
 - Leandro Gabriel de Oliveira Nascimento
