@@ -58,6 +58,13 @@ Este projeto foi desenvolvido como parte do curso de Programação para Web, vis
 ## 🎬 Demonstração do Projeto  
 Exemplo: [▶ Assistir demonstração](https://youtu.be/8hjI5-tX2GY)
 
+## 🌐 Acesso ao Projeto (Deploy)
+
+O projeto está disponível online através da plataforma de deploy da Vercel.
+
+🔗 **Acesse o site:**  
+https://basic-landing-page-nu.vercel.app
+
 ## 👤 Autores  
 - Leandro Gabriel de Oliveira Nascimento
 
